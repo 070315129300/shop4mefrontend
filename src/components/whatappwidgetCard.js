@@ -28,7 +28,6 @@ const WhatsAppButton = () => {
   return (
     <div className="whatsapp-button" onClick={handleWhatsAppClick}>
           <WhatsApp className="whatsapp-icon" />
-          {/* <WhatsApp className="whatsapp-icon" /> */}
     </div>
   );
 }
