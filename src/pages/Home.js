@@ -1,5 +1,5 @@
 import React from 'react';
-import WhatsAppButton from "../components/whatappwidgetCard";
+// import WhatsAppButton from "../components/whatappwidgetCard";
 
 const Home = () => {
   return (
@@ -24,9 +24,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <WhatsAppButton />
-        </div>
+        </div> */}
       </div>
     </>
   );
