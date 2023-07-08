@@ -55,7 +55,6 @@ console.log(name);
 
     // Clear Redux state
     dispatch(logoutUser());
-    
 
     // Additional logout logic can be added if needed
   };
@@ -91,7 +90,8 @@ console.log(name);
                 </NavLink>
               
             </div>
-        <div className="col-xl-4 d-none d-sm-flex">
+            {/* <div className="col-xl-4 d-none d-sm-flex"> */}
+             <div className="col-xl-3 "></div>
   <div className="input-group">
     <input
       type="text"
@@ -238,19 +238,7 @@ console.log(name);
                   </Link>
                 </div>
                 <div className="col-xl-4 d-sm-none d-flex">
-  <div className="input-group">
-    <input
-      type="text"
-      className="form-control py-2"
-      placeholder="Search Product Here..."
-      aria-label="Search Product Here..."
-      aria-describedby="basic-addon2"
-    />
-    <span className="input-group-text p-3" id="basic-addon2">
-      <BsSearch className="fs-6" />
-    </span>
-  </div>
-</div>
+
 
               </div>
             </div>
